@@ -117,4 +117,28 @@
 }
 .home .input .input[type=range] {
   background: blue;
+}
+.home .searchOptions {
+  position: absolute;
+  background: var(--gradientColor);
+  width: -moz-max-content;
+  width: max-content;
+  bottom: -0.7rem;
+  -moz-column-gap: 0.8rem;
+       column-gap: 0.8rem;
+  padding: 5px 1rem;
+  border-radius: 3rem;
+  left: 50%;
+  transform: translate(-50%);
+  justify-content: center;
+  cursor: pointer;
+}
+.home .searchOptions:hover {
+  background: var(--PrimaryColor);
+}
+.home .searchOptions .icon {
+  font-size: 18px;
+}
+.home .searchOptions span {
+  font-size: 13px;
 }/*# sourceMappingURL=home.css.map */
