@@ -74,29 +74,29 @@
   border-radius: 10px;
   gap: 1rem;
 }
-.home label {
+.home .cardDiv label {
   display: block;
   color: var(--textColor);
   padding-bottom: 10px;
   font-size: 13px;
   font-weight: 500;
 }
-.home .label_total {
+.home .cardDiv .label_total {
   justify-content: space-between;
   align-items: center;
 }
-.home .label_total .total {
+.home .cardDiv .label_total .total {
   color: var(--textColor);
   font-size: 18px;
   padding-bottom: 10px;
 }
-.home .input {
+.home .cardDiv .input {
   height: 40px;
   padding: 0 1rem;
   background: var(--inputColor);
   border-radius: 3rem;
 }
-.home .input input {
+.home .cardDiv .input input {
   background: none;
   border: none;
   outline: none;
@@ -104,21 +104,21 @@
   font-size: 13px;
   font-weight: 500;
 }
-.home .input input::-moz-placeholder {
+.home .cardDiv .input input::-moz-placeholder {
   font-size: 13px;
 }
-.home .input input::placeholder {
+.home .cardDiv .input input::placeholder {
   font-size: 13px;
 }
-.home .input .icon {
+.home .cardDiv .input .icon {
   font-size: 18px;
   color: var(--PrimaryColor) !important;
   margin-left: 10px;
 }
-.home .input .input[type=range] {
+.home .cardDiv .input .input[type=range] {
   background: blue;
 }
-.home .searchOptions {
+.home .cardDiv .searchOptions {
   position: absolute;
   background: var(--gradientColor);
   width: -moz-max-content;
@@ -133,12 +133,25 @@
   justify-content: center;
   cursor: pointer;
 }
-.home .searchOptions:hover {
+.home .cardDiv .searchOptions:hover {
   background: var(--PrimaryColor);
 }
-.home .searchOptions .icon {
+.home .cardDiv .searchOptions .icon {
   font-size: 18px;
 }
-.home .searchOptions span {
+.home .cardDiv .searchOptions span {
   font-size: 13px;
+}
+.home .homeFooterIcons {
+  width: 100%;
+  justify-content: space-between;
+}
+.home .homeFooterIcons .icon {
+  font-size: 20px;
+  margin: 0 5px;
+  color: var(--whiteColor);
+  font-weight: 600;
+}
+.home .homeFooterIcons .icon:hover {
+  color: var(--PrimaryColor);
 }/*# sourceMappingURL=home.css.map */
