@@ -63,23 +63,19 @@ const Footer = () => {
             </li>
             <li className="footerList">
               <FiChevronRight className="icon"/>
-              Services
+              Insurance
             </li>
             <li className="footerList">
               <FiChevronRight className="icon"/>
-              Services
+              Agency
             </li>
             <li className="footerList">
               <FiChevronRight className="icon"/>
-              Services
+              Tourism
             </li>
             <li className="footerList">
               <FiChevronRight className="icon"/>
-              Services
-            </li>
-            <li className="footerList">
-              <FiChevronRight className="icon"/>
-              Services
+              Payment
             </li>
           </div>
         </div>
